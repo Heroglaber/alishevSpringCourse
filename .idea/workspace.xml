@@ -3,22 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f67a04ae-a0c4-4a61-962e-ec5620edd4b5" name="Default Changelist" comment="Init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/RapMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +38,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -53,7 +72,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -94,45 +117,96 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603392687944</updated>
-      <workItem from="1603392690332" duration="3530000" />
+      <workItem from="1603392690332" duration="6739000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1603396458410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603396458410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1603393592071">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1603399702749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603393592071" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603399702749" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603399377508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603399377508" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603394124709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603394124709" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603396166122">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603399936300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396166122" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603396166121">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603399936300" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603399936300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396166121" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603396166121">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603399936300" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603399936300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396166121" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603396166122">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603399936300" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603399936300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396166122" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1603394551130">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603399936300" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603396963997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603394551130" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396963997" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603397137242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603397137242" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603396897287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396897287" />
+    <state x="731" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603396989254">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396989254" />
+    <state x="640" y="203" key="spring file set editor" timestamp="1603396433766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="203" key="spring file set editor/0.0.1920.1040/-1280.59.1280.984@0.0.1920.1040" timestamp="1603396433766" />
   </component>
 </project>
