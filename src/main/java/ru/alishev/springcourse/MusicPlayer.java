@@ -5,7 +5,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+import java.util.List;
+import java.util.Random;
+
 public class MusicPlayer {
 
     @Value ("${musicPlayer.name}")
@@ -22,14 +24,14 @@ public class MusicPlayer {
         return volume;
     }
 
-    @Autowired
-    @Qualifier("classicalMusic")
-    private Music classicalMusic;
-    @Autowired
-    @Qualifier("rockMusic")
-    private Music rockMusic;
+    private List<Music> genres;
 
-    public String playMusic(MusicGenre genre) {
-        return "Playing: " + classicalMusic.getSong() + "\n" + rockMusic.getSong();
+    public MusicPlayer(List<Music> genres) {
+        this.genres = genres;
+    }
+
+    public String playMusic() {
+        int num = new Random().nextInt(genres.size());
+        return genres.get(num).getSong();
     }
 }
