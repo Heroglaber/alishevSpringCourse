@@ -14,7 +14,11 @@
     </bean>
 
     <bean id="musicBean2"
-          class="ru.alishev.springcourse.ClassicalMusic">
+          scope="singleton"
+          class="ru.alishev.springcourse.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
     </bean>
 
     <bean id="musicBean3"
@@ -25,7 +29,6 @@
         <constructor-arg>
             <list>
                 <ref bean="musicBean1" />
-                <ref bean="musicBean2" />
                 <ref bean="musicBean3" />
             </list>
         </constructor-arg>
